@@ -13,7 +13,7 @@ totalCandidates = 0
 #was confused how to label largest Votes, and made an array
 greatestVotes = ["", o]
 candidateOptions = []
-candidateVotes{}
+candidateVotes = {}
 
 #Using as python function to open csv
 with open(csvpath) as electionData:
