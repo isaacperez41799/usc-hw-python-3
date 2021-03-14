@@ -29,7 +29,7 @@ with open(cvspath) as revenueData:
 
        #Totaling
            totalMonth = totalMonth + 1
-           totalRevenue = totalRevenue + int(row["Revenue"])
+           totalRevenue += int(row["Revenue"])
 
 #Calculating change in revenue
            revenueChange = int(row["Revenue"]) - previousRevenue
